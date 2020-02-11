@@ -1,0 +1,32 @@
+body{
+    background-image: url("https://media1.faz.net/ppmedia/aktuell/sport/1776068751/1.5922309/format_top1_breit/die-champions-league-bleibt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+  }
+  
+  p#quote {
+    color: blue;
+    text-align: center;
+    
+  }
+  
+  blockquote#moin{
+    text-align: center;
+    
+    color: white;
+    font-weight: bold;
+    background-image: url("https://image-service.onefootball.com/resize?fit=max&h=697&image=https%3A%2F%2Fonefootball.lfcfamilie.de%2Fwp-content%2Fuploads%2F2018%2F11%2FGettyImages-93389888-1024x660.jpg&q=25&w=1080");
+    background-position-x: center;
+    background-position-y: 500px;
+    border: 8px solid;
+    border-style: groove;
+    border-radius: 40px;
+    width: 1000px;
+    height: 200px;
+    margin: 2;
+    padding: 2;
+  }
