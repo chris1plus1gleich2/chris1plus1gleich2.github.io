@@ -1,7 +1,7 @@
 body{
     background-image: url("https://media1.faz.net/ppmedia/aktuell/sport/1776068751/1.5922309/format_top1_breit/die-champions-league-bleibt.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+
   }
   h1 {
     text-align: center;
@@ -16,17 +16,23 @@ body{
   
   blockquote#moin{
     text-align: center;
-    
-    color: white;
+    color:gold;
     font-weight: bold;
-    background-image: url("https://image-service.onefootball.com/resize?fit=max&h=697&image=https%3A%2F%2Fonefootball.lfcfamilie.de%2Fwp-content%2Fuploads%2F2018%2F11%2FGettyImages-93389888-1024x660.jpg&q=25&w=1080");
+    background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/10/26/11/bill-shankly.jpg?w968h681");
+    
     background-position-x: center;
-    background-position-y: 500px;
+    background-position-y: 600px;
+    background-size: 100%;
+
     border: 8px solid;
     border-style: groove;
     border-radius: 40px;
+
+
+    font-size: 30px;
     width: 1000px;
-    height: 200px;
-    margin: 2;
+    height: 500px;
+    margin: auto;
+    position: relative;
     padding: 2;
   }
