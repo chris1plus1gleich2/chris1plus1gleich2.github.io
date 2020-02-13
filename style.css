@@ -1,11 +1,13 @@
 body{
-    background-image: url("https://media1.faz.net/ppmedia/aktuell/sport/1776068751/1.5922309/format_top1_breit/die-champions-league-bleibt.jpg");
+    // background-image: url("https://media1.faz.net/ppmedia/aktuell/sport/1776068751/1.5922309/format_top1_breit/die-champions-league-bleibt.jpg");
+    background-color: green;
     background-size: 100%;
+    
 
   }
   h1 {
     text-align: center;
-    color: white;
+    color: black;
   }
   
   p#quote {
@@ -14,21 +16,50 @@ body{
     
   }
 
-blockquote#moin {
+  p#menu{
+      text-align: center;
+  }
+
+  hr{
+      color: black;
+  }
+p#zitat {
+    padding: 90px 0;
     text-align: center;
-    color: gold;
+    color: black;
     font-weight: bold;
+    font-size: 50px;
+}
+
+cite#namezitator {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+blockquote#moin {
     background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/10/26/11/bill-shankly.jpg?w968h681");
     background-position-x: center;
-    background-position-y: 600px;
+    background-position-y: 700px;
     background-size: 100%;
-    padding: 70px 0;
-    border: 8px solid yellow;
+    padding: 80px 0;
+    border: 8px solid black;
     border-style: groove;
     border-radius: 40px;
-    font-size: 30px;
-    width: 1000px;
-    height: 500px;
-    margin: auto;
-    position: relative;
+    // text-align: center;
+    // color: gold;
+    // font-weight: bold;
+    // background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/10/26/11/bill-shankly.jpg?w968h681");
+   // background-position-x: center;
+    // background-position-y: 700px;
+    // background-size: 100%;
+   //  padding: 80px 0;
+   // border: 8px solid yellow;
+   // border-style: groove;
+   // border-radius: 40px;
+    // font-size: 30px;
+    // width: 1000px;
+   //  height: 500px;
+    // margin: auto;
+    // position: relative;
 }
