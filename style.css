@@ -1,6 +1,6 @@
 body{
     // background-image: url("https://media1.faz.net/ppmedia/aktuell/sport/1776068751/1.5922309/format_top1_breit/die-champions-league-bleibt.jpg");
-    background-color: green;
+    background-color:  darkolivegreen;
     background-size: 100%;
     
 
@@ -24,42 +24,68 @@ body{
       color: black;
   }
 p#zitat {
-    padding: 90px 0;
+    padding: 80px 0;
     text-align: center;
-    color: black;
+    color: #4CAF50;
     font-weight: bold;
     font-size: 50px;
 }
 
 cite#namezitator {
-    color: black;
+    color: #4CAF50;
     font-weight: bold;
     font-size: 20px;
 }
 
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
 blockquote#moin {
-    background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/10/26/11/bill-shankly.jpg?w968h681");
-    background-position-x: center;
-    background-position-y: 700px;
+    background-image: url("https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/98/thumb_97586_default_news_size_5.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     background-size: 100%;
+    background-repeat: unset;
     padding: 80px 0;
-    border: 8px solid black;
-    border-style: groove;
-    border-radius: 40px;
     // text-align: center;
     // color: gold;
     // font-weight: bold;
     // background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/10/26/11/bill-shankly.jpg?w968h681");
-   // background-position-x: center;
+    // background-position-x: center;
     // background-position-y: 700px;
     // background-size: 100%;
-   //  padding: 80px 0;
-   // border: 8px solid yellow;
-   // border-style: groove;
-   // border-radius: 40px;
+    // padding: 80px 0;
+    // border: 8px solid yellow;
+    // border-style: groove;
+    // border-radius: 40px;
     // font-size: 30px;
     // width: 1000px;
-   //  height: 500px;
+    // height: 500px;
     // margin: auto;
     // position: relative;
 }
