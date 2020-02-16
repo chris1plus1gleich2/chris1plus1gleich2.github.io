@@ -5,87 +5,58 @@ body{
     
 
   }
-  h1 {
-    text-align: center;
+  h2 {
     color: black;
+    font-size: 30px;
+    font-family: Impact, Charcoal, sans-serif;
   }
   
-  p#quote {
-    color: blue;
-    text-align: center;
-    
-  }
-
-  p#menu{
-      text-align: center;
-  }
 
   hr{
       color: black;
   }
-p#zitat {
-    padding: 80px 0;
-    text-align: center;
-    color: #4CAF50;
-    font-weight: bold;
-    font-size: 50px;
-}
-
-cite#namezitator {
-    color: #4CAF50;
-    font-weight: bold;
-    font-size: 20px;
-}
 
 .topnav {
     background-color: black;
     overflow: hidden;
 }
 
-    /* Style the links inside the navigation bar */
     .topnav a {
         float: left;
-        color: #f2f2f2;
+        color: white;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
     }
-
-        /* Change the color of links on hover */
         .topnav a:hover {
-            background-color: #ddd;
+            background-color: gray;
             color: black;
         }
 
-        /* Add a color to the active/current link */
         .topnav a.active {
-            background-color: #4CAF50;
+            background-color: gray;
             color: white;
         }
 
-blockquote#moin {
-    background-image: url("https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/98/thumb_97586_default_news_size_5.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-size: 100%;
-    background-repeat: unset;
-    padding: 80px 0;
-    // text-align: center;
-    // color: gold;
-    // font-weight: bold;
-    // background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/10/26/11/bill-shankly.jpg?w968h681");
-    // background-position-x: center;
-    // background-position-y: 700px;
-    // background-size: 100%;
-    // padding: 80px 0;
-    // border: 8px solid yellow;
-    // border-style: groove;
-    // border-radius: 40px;
-    // font-size: 30px;
-    // width: 1000px;
-    // height: 500px;
-    // margin: auto;
-    // position: relative;
+
+p#pa {
+    color: black;
+    font-size: 21px;
+    font-family: Impact, Charcoal, sans-serif;
 }
+
+
+img#zitat{
+    
+    width: 1200px;
+}
+
+footer {
+    background-color: black;
+}
+
+p#footer{
+    color: white;
+}
+
