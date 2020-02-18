@@ -1,18 +1,18 @@
-body{
-    // background-image: url("https://media1.faz.net/ppmedia/aktuell/sport/1776068751/1.5922309/format_top1_breit/die-champions-league-bleibt.jpg");
-    background-color:  darkolivegreen;
-    background-size: 100%;
-    
 
-  }
-  h2 {
-    color: black;
-    font-size: 30px;
-    font-family: Impact, Charcoal, sans-serif;
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
   }
   
 
-  hr{
+  h2 {
+    color: black;
+    font-size: 30px;
+  }
+  
+hr{
       color: black;
   }
 
@@ -28,35 +28,54 @@ body{
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
+        margin-bottom: 0px;
     }
         .topnav a:hover {
             background-color: gray;
             color: black;
         }
 
-        .topnav a.active {
-            background-color: gray;
-            color: white;
-        }
-
-
-p#pa {
+p#definitionfussball {
     color: black;
     font-size: 21px;
-    font-family: Impact, Charcoal, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
 }
 
-
-img#zitat{
-    
-    width: 1200px;
+img#mainimg{
+width: 100%;
+height: 50%;
+margin-bottom: 40px;
+margin-top: 0px;
 }
 
-footer {
-    background-color: black;
-}
 
 p#footer{
     color: white;
+}
+
+footer{
+    background-color: black;
+    background-size: 100%;
+    color: white;
+    bottom: 0;
+}
+
+ul#andere{
+    list-style-type: none;
+}
+
+.siegerimg{
+    font-size: 36px;
+    border:solid;
+    border-radius: 35px;
+    text-align: center;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url(https://wallpapercave.com/wp/ieEZGDQ.jpg);
+    background-position-y: 45px;
 }
 
