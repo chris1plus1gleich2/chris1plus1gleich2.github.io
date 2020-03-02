@@ -1,26 +1,19 @@
 
+/* *.html */
 body{
     background-color: #d2ffb8;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     
-  }
-  
-
-  h2 {
-    color: black;
-    font-size: 30px;
-  }
-  
+  } 
 hr{
       color: black;
   }
-
+ /* Navigationsbar */
 .topnav {
     background-color: black;
     overflow: hidden;
 }
-
     .topnav a {
         float: left;
         color: white;
@@ -34,37 +27,33 @@ hr{
             background-color: gray;
             color: black;
         }
-
-p#definitionfussball {
+.text {
     color: black;
     font-size: 21px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 40px;
 }
-
-img#mainimg{
-width: 100%;
-height: 50%;
-margin-bottom: 40px;
-margin-top: 0px;
-}
-
-
-p#footer{
-    color: white;
-}
-
 footer{
     background-color: black;
     background-size: 100%;
     color: white;
     bottom: 0;
 }
-
+#footer{
+    color: white;
+}
 ul#andere{
     list-style-type: none;
 }
 
+/* index.html */
+#mainimg{
+width: 100%;
+height: 50%;
+margin-bottom: 40px;
+margin-top: 0px;
+}
+/* Bilder.html */
 .siegerimg{
     font-size: 36px;
     border:solid;
@@ -78,4 +67,6 @@ ul#andere{
     background-image: url(https://wallpapercave.com/wp/ieEZGDQ.jpg);
     background-position-y: 45px;
 }
+
+
 
