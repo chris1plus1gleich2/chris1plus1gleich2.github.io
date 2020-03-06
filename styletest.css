@@ -112,6 +112,7 @@ nav ul {
     label{
       display: block;  
       cursor: pointer;
+      font-size: 50px;
     }
     .navi{
       display: none;
