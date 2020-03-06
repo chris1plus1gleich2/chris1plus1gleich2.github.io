@@ -70,6 +70,11 @@ nav ul {
     color: gray;
     float: left;
     display: none;
+    font-size: 60px;
+  }
+
+  label:hover{
+    color: white;
   }
 
   nav{
@@ -94,6 +99,7 @@ nav ul {
 
   .responsiv a:hover{
     color: gray;
+    text-shadow: 0.8rem .8rem 2.5rem lightgray;
   }
   #toggle{
     display: none;
