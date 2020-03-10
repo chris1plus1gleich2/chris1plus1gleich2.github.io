@@ -1,0 +1,30 @@
+html{
+    background-image: url(https://i.ya-webdesign.com/images/green-wallpaper-png-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.links{
+  margin-left: 600px;
+  font-size: 50px;
+  list-style: none;
+}
+
+.links li:hover{
+font-size: 60px;
+font-style: italic;
+
+}
+.links li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 12;
+}
+
+
+
+
+
+
+
