@@ -245,7 +245,9 @@ nav ul {
 
 .trailer{
     margin-top: 96px;
-    margin-left: 17.5%;
+    margin-left: 20.5%;
+    height: 800px;
+    width: 1200px;
     box-shadow: .80px .80px 48rem gray;
   }
 
