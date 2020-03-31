@@ -65,7 +65,7 @@ nav ul {
       float: right;
   }
 
-  label{
+  nav label{
     margin: 30px;
     color: gray;
     float: left;
@@ -73,7 +73,7 @@ nav ul {
     font-size: 60px;
   }
 
-  label:hover{
+  nav label:hover{
     color: white;
   }
 
@@ -110,7 +110,7 @@ nav ul {
  }
 
   @media only screen and (max-width: 1500px){
-    label{
+    nav label{
       display: block;  
       cursor: pointer;
       font-size: 50px;
