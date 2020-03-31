@@ -56,7 +56,7 @@ font-style: italic;
 }
 
 .innerfooter ul a:hover{
-  color: darkgray;
+  color: gray;
 }
 
 .innerfooter p{
@@ -69,7 +69,7 @@ footer{
   height: 200px;
   bottom: 0;
   background-image:url(https://wallpaperaccess.com/full/871906.jpg);
-  background-position-y: 500px; 
+  background-position-y: 500px;
 }
 
 

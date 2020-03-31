@@ -245,15 +245,18 @@ nav ul {
 
 .trailer{
     margin-top: 96px;
-    margin-left: 20.5%;
-    height: 800px;
-    width: 1200px;
+    padding: 2px;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
     box-shadow: .80px .80px 48rem gray;
   }
 
   @media only screen and (max-width: 1500px){
     .trailer{
-      margin-left: 0;
+      margin-top: 96px;
+      padding: 2px;
       width: 100%;
       margin-bottom: 90px;
     }

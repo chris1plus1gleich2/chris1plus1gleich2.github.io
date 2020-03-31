@@ -305,4 +305,7 @@ height: 200px;
   .heading{
     font-size: 20px;
   }
+  .label{
+    display: none;
+  }
 }
