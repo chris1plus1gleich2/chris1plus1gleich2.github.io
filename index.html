@@ -6,6 +6,9 @@
     <meta name="discription" content="Die Welt des Fussballs bietet viele spektakuläre Momente und Highlights. Ein paar ganz besondere möchte ich euch hier Vorstellen">
     <meta name="keywords" content="Fussball, Spieler, Welt des Fussball">
     <link rel="icon" type="image/gif" href="Bilder/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+
     
     <title>Die Welt des Fussball</title>
     
@@ -17,17 +20,36 @@
 
     <header>
         <nav>
-            <ul class="nav">
-                <li class="navi"><img src="Logo.png"></li>
+            <div class="logo">
+                <h3>Fussball</h3>
+            </div>
+            <ul class="navs">
                 <li class="navi" ><a href="" >Text1</a></li>
                 <li class="navi"><a href="" >Text2</a></li>
-                <li class="navi"><a href="" >Text3</a></li>¨
-                <li class="navi" id="symbol"><label class="kreiskreuz">&#8855</label></li>
+                <li class="navi"><a href="" >Text3</a></li>
             </ul>
-        </nav>
+
+        
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
     </header>
     
     <main>
+
+        <div class="ersteslayout">
+            <div class="ersteslayoutinhalt">
+            <h1>Die Welt des Fussballs</h1>
+            <p>Die Welt des Fussballs bietet viele spektakuläre Momente und Highlights.
+                 Ein paar ganz besondere möchte ich euch hier vorstellen.</p>
+            </div>
+        </div>
+
+
 
     </main>
 
@@ -61,6 +83,19 @@
 
 
     </footer>
+
+    <script>
+        const navSlide = () => {
+            const burger = document.querySelector(".burger");
+            const nav = document.querySelector(".navs");
+
+            burger.addEventListener('click', ()=> {
+                nav.classList.toggle("nav-active");
+            });
+        }
+
+        navSlide();
+    </script>
 </body>
 
 </html>	

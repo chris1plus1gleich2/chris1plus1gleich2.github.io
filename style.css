@@ -3,6 +3,8 @@
 html{
   font-family: "Open Sans", Arial, sans-serif;
   scroll-behavior: smooth;
+  background-color: #ece8e1;
+  font-family: 'Oswald', sans-serif;
 }
 
 /* Body Adjustment */
@@ -10,41 +12,102 @@ body{
   width: 100%;
   height: 100%;
   margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 
 /* Navigation */
-.nav {
+/*.nav {
   font-family: DINNextW1G,arial,georgia,sans-serif;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:black;
+  background-color:rgb(17, 17, 17);
+} */
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color:rgb(17, 17, 17);
+  margin-bottom: 0px;
 }
 
-.navi {
-  float: left;
-}
-
-.navi img{
-  width: 70px;
-  height: 50px;
-  margin-left: 50px;
-  margin-top: 10px;
-}
-.navi a {
-  display: block;
+.logo{
   color: white;
-  text-align: center;
-  padding: 28px 60px;
-  text-decoration: none;
-  transition: hover 1s;
-  font-weight: bold;
-  transition: color 0.5s;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 22px;
+  cursor: pointer;
 }
 
+.navs{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
 
+.navi{
+  list-style: none;
+}
+
+.navi a{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  font-size: 15px;
+  text-transform: uppercase;
+  transition: color 0.5s ease-in;
+}
+
+.burger div{
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+}
+
+.burger{
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px){
+  .navs{
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 700px){
+  body{
+    overflow-x: hidden;
+  }
+  
+  .navs{
+    position: absolute;
+    right: 0px;
+    height: 93vh;
+    top: 6.5vh;
+    background-color:rgb(12, 12, 12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .burger{
+    display: block;
+  }
+}
+
+.nav-active{
+  transform: translateX(0%);
+}
 
 /* Change the link color to #111 (black) on hover */
 .navi a:hover {
@@ -55,6 +118,7 @@ body{
   cursor:crosshair;
 
 }
+
 
 
 /* Footer */
@@ -117,4 +181,38 @@ hr {
   margin-left: 100px;
   margin-right: 100px;
   
+}
+
+/* Website Index Start */
+
+.ersteslayout{
+  margin-top: 0px;
+  height: 740px;
+  background-position-y: 800px;
+  background-image: url(https://wallpapercave.com/wp/5DMx8Xb.jpg);
+  color: white;
+  display: grid;
+  grid-template-areas: 
+  "platz1 platz2 platz3
+  platz4 platz5 platz6"
+  ;
+}
+
+.ersteslayout h1{
+  position: absolute;
+  font-weight: bolder;
+  font-size: 75px;
+  text-transform: uppercase;
+}
+
+.ersteslayout p{
+  position: absolute;
+  font-weight: bold;
+  font-size: 23px;
+  display: block;
+  float: right;
+}
+
+.ersteslayoutersterinhalt{
+  grid-template-areas: platz3;
 }
