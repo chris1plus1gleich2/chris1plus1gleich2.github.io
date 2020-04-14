@@ -2,6 +2,7 @@
 /* *.html */
 html{
   font-family: "Open Sans", Arial, sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* Body Adjustment */
@@ -12,7 +13,9 @@ body{
 }
 
 
-ul {
+/* Navigation */
+.nav {
+  font-family: DINNextW1G,arial,georgia,sans-serif;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -20,25 +23,98 @@ ul {
   background-color:black;
 }
 
-li {
+.navi {
   float: left;
 }
 
-li img{
-  display: block;
+.navi img{
   width: 70px;
   height: 50px;
-  margin-left: 10px;
+  margin-left: 50px;
+  margin-top: 10px;
 }
-li a {
+.navi a {
   display: block;
   color: white;
   text-align: center;
-  padding: 18px 20px;
+  padding: 28px 60px;
   text-decoration: none;
+  transition: hover 1s;
+  font-weight: bold;
+  transition: color 0.5s;
 }
 
+
+
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.navi a:hover {
+  cursor:pointer;
+  color: blue;
+}
+.navi img:hover {
+  cursor:crosshair;
+
+}
+
+
+/* Footer */
+footer{
+  background-image:url(https://images4.alphacoders.com/879/87918.jpg);
+  background-position-y: 900px;
+  background-position-x: 2250px;
+}
+
+.innerfootera{
+  padding-top: 30px;
+  margin-top: 80px;
+  float: middle;
+  text-align: center;
+  font-style: italic;
+  font-size: 13px;
+  color: white;
+  margin-bottom: 10px;
+  font-family: OpenSans, sans-serif;
+  font-weight: bold;
+}
+
+.innerfooterb {
+  list-style: none;
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.innerfooterb ul{
+  list-style: none;
+}
+
+.innerfooterb li{
+  list-style: none;
+  text-align: center;
+  display: inline;
+}
+.innerfooterb li a{
+  text-decoration: none;
+  color: white;
+  font-size: 12;
+  padding: 10px;
+  transition: all 0.25s;
+  font-weight: bolder;
+}
+
+.innerfooterb li a:hover{
+
+color: rgb(64, 64, 255);
+
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0;
+  border-top: 0.5px solid white;
+  margin-left: 100px;
+  margin-right: 100px;
   
 }
