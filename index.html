@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content:"christopher">
+    <meta name="discription" content="Die Welt des Fussballs bietet viele spektakuläre Momente und Highlights. Ein paar ganz besondere möchte ich euch hier Vorstellen">
+    <meta name="keywords" content="Fussball, Spieler, Welt des Fussball">
+    <link rel="icon" type="image/gif" href="Bilder/icon.png">
+    <link href="//db.onlinewebfonts.com/c/561f38b1f4570de0fb8a39d691ab058c?family=Tungsten+Bold" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+
+    
+    <title>Die Welt des Fussball</title>
+    
+    <!-- Verlinkung mit Stylesheet -->
+    <link href="style.css" ; rel="stylesheet" ;>
+</head>
+
+<body>
+
+    <header>
+        <nav id="div3">
+            <div class="logo">
+                <h3>Fussball</h3>
+            </div>
+            <ul class="navs">
+                <li class="navi" ><a href="" >Home</a></li>
+                <li class="navi"><a href="" >Kontakt</a></li>
+                <li class="navi"><a href="" >Quellen</a></li>
+            </ul>
+
+        
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    </header>
+    
+    <main>
+        
+        <div class="ersteslayout">
+            <div class="vertikalenav">  
+            <div class="vertikalelinie">
+            <div class="ersteslayoutinhalt">
+            <h1>Die Welt des Fussballs</h1>
+            <p>Die Welt des Fussballs bietet viele spektakuläre Momente und Highlights.
+                 Ein paar ganz besondere möchte ich euch hier vorstellen.</p>
+            </div>
+            </div>
+        </div>
+    <div class="onepager">
+        
+        <a href="#div3" >001 <span class="spannav">Fussball</span></a>
+        <a href="#div4" >002 <span class="spannav">Überbllick</span></a>
+        <a href="#div5" >003 <span class="spannav">Champions</span></a>
+        <a href="#div6" >004 <span class="spannav">Weltmeister</span></a>
+            
+
+        </div>
+    </div>
+    <div id="div4">
+        <div class="weiterercontent" >
+            <div class="headline">
+            <h1 class="headtitle">Wenn jede Sekunde zählt...</h1>
+            </div>
+            <div>
+            <p></p>
+            </div>
+        </div>
+        </div>
+
+    </main>
+
+
+
+    <footer> 
+ 
+        <div class="outerfooter">
+
+            <div class="innerfootera">
+                <p>„Einige Leute halten Fußball für eine Sache von Leben und Tod. Ich mag diese Einstellung nicht. Ich versichere Ihnen, dass es viel ernster ist!“</p>
+                <p> - Bill Shankly</p>
+            </div>
+
+            <hr class="trennung"> 
+
+            <div class="innerfooterb">
+                <ul>
+                    <li><a href="Quellen.html">Quellen</a></li>
+                    <li><a href="progress.html">Progress</a></li>
+                    <li><a href="notavaliable">In Planung</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="innerfooterc">
+                Social Media Links
+            </div>
+
+        </div>
+
+
+    </footer>
+
+    <script>
+        const navSlide = () => {
+            const burger = document.querySelector(".burger");
+            const nav = document.querySelector(".navs");
+
+            burger.addEventListener('click', ()=> {
+                nav.classList.toggle("nav-active");
+            });
+        }
+        
+        navSlide();
+    </script>
+</body>
+
+</html>	
