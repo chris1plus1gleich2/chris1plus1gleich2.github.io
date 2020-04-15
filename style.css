@@ -82,7 +82,8 @@ nav{
   }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 850px){
+
   body{
     overflow-x: hidden;
   }
@@ -189,30 +190,55 @@ hr {
   margin-top: 0px;
   height: 740px;
   background-position-y: 800px;
-  background-image: url(https://wallpapercave.com/wp/5DMx8Xb.jpg);
+  background-image: url(https://images7.alphacoders.com/932/thumb-1920-932703.jpg);
   color: white;
-  display: grid;
-  grid-template-areas: 
-  "platz1 platz2 platz3
-  platz4 platz5 platz6"
   ;
 }
 
 .ersteslayout h1{
   position: absolute;
   font-weight: bolder;
-  font-size: 75px;
+  font-size: 90px;
   text-transform: uppercase;
+  top: 270px;
+  left: 200px;
+  width: 500px;
+  
 }
 
 .ersteslayout p{
   position: absolute;
-  font-weight: bold;
-  font-size: 23px;
-  display: block;
-  float: right;
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: 30px;
+  top: 600px;
+  width: 600px;
+  right: 100px;
+  left: 200px;
+ 
 }
 
-.ersteslayoutersterinhalt{
-  grid-template-areas: platz3;
+
+@media screen and (max-width:850px){
+  .ersteslayout{
+    
+  }
+  .ersteslayout h1{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 50px;
+    text-transform: uppercase;
+    width: 250px;
+    top: 200px;
+    left: 8%;
+  }
+  
+  .ersteslayout p{
+    position: absolute;
+    font-weight: bold;
+    font-size: 23px;
+    top: 400px;
+    width: 250px;
+    left: 9%;
+  }
 }
