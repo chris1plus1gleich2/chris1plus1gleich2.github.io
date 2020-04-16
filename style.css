@@ -226,7 +226,7 @@ hr {
   position: absolute;
   left: 10%;
   border-left: 1px solid rgb(138, 138, 138);
-  height: 1000px;
+  height: 1400px;
 }
 
 
@@ -250,6 +250,7 @@ hr {
 .weiterercontent{
   position: relative;
   left: 300px;
+  height: 800px;
 }
 .onepager a:hover{
   color: rgb(31, 31, 31);
@@ -270,6 +271,37 @@ hr {
   color: #0f1923;
   left: 7%;
   text-transform: uppercase;
+  margin-right: 3%;
+}
+
+.untertext{
+ 
+}
+
+.untertext p{
+  font-size: 18px;
+  width: 300px;
+  position: relative;
+  left: 18%;
+  top: 100px;
+  color: gray;
+}
+
+
+.trailer{
+  position: relative;
+  left: 40%;
+  bottom: 300px;
+  width: 720px;
+  height: 420px;
+}
+.blabla{
+  position: absolute;
+  background-color: #0f1923;
+  height: 300px;
+  width: 650px;
+  left: 40%;
+  bottom: 100px;
 }
 @media screen and (max-width:1100px){
   
