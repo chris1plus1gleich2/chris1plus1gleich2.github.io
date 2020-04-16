@@ -5,6 +5,7 @@ html{
   scroll-behavior: smooth;
   background-color: #ece8e1;
   font-family: 'Oswald', sans-serif;
+  overflow-x: hidden;
 }
 
 /* Body Adjustment */
@@ -37,7 +38,7 @@ nav{
 }
 
 .logo{
-  color: white;
+  color: #ece8e1;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 22px;
@@ -55,7 +56,7 @@ nav{
 }
 
 .navi a{
-  color: white;
+  color: #ece8e1;
   text-decoration: none;
   letter-spacing: 2px;
   font-weight: bolder;
@@ -67,7 +68,7 @@ nav{
 .burger div{
   width: 25px;
   height: 3px;
-  background-color: white;
+  background-color: #ece8e1;
   margin: 5px;
 }
 
@@ -76,13 +77,8 @@ nav{
   cursor: pointer;
 }
 
-@media screen and (max-width: 1000px){
-  .navs{
-    width: 60%;
-  }
-}
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1100px){
 
   body{
     overflow-x: hidden;
@@ -91,13 +87,13 @@ nav{
   .navs{
     position: absolute;
     right: 0px;
-    height: 93vh;
-    top: 6.5vh;
+    height: 79.5vh;
+    top: 7.5vh;
     background-color:rgb(12, 12, 12);
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 25%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
@@ -136,7 +132,7 @@ footer{
   text-align: center;
   font-style: italic;
   font-size: 13px;
-  color: white;
+  color: #ece8e1;
   margin-bottom: 10px;
   font-family: OpenSans, sans-serif;
   font-weight: bold;
@@ -161,7 +157,7 @@ footer{
 }
 .innerfooterb li a{
   text-decoration: none;
-  color: white;
+  color: #ece8e1;
   font-size: 12;
   padding: 10px;
   transition: all 0.25s;
@@ -178,7 +174,7 @@ hr {
   margin-top: 10px;
   margin-bottom: 10px;
   border: 0;
-  border-top: 0.5px solid white;
+  border-top: 0.5px solid #ece8e1;
   margin-left: 100px;
   margin-right: 100px;
   
@@ -189,9 +185,10 @@ hr {
 .ersteslayout{
   margin-top: 0px;
   height: 740px;
-  background-position-y: 800px;
-  background-image: url(https://images7.alphacoders.com/932/thumb-1920-932703.jpg);
-  color: white;
+  background-position-y: 900px;
+  background-image: url(https://s12.directupload.net/images/200415/qoy7lin9.png);
+  background-attachment: fixed;
+  color: #ece8e1;
   ;
 }
 
@@ -200,8 +197,8 @@ hr {
   font-weight: bolder;
   font-size: 90px;
   text-transform: uppercase;
-  top: 270px;
-  left: 200px;
+  top: 230px;
+  left: 0px;
   width: 500px;
   
 }
@@ -211,17 +208,74 @@ hr {
   font-weight: bolder;
   font-style: oblique;
   font-size: 30px;
-  top: 600px;
+  top: 525px;
   width: 600px;
   right: 100px;
-  left: 200px;
+  left: 0px;
  
 }
 
+.vertikalelinie{
+  position: absolute;
+  left: 180px;
+  border-left: 1px solid lightgray;
+  height: 740px;
+}
 
-@media screen and (max-width:850px){
-  .ersteslayout{
-    
+.vertikalenav{
+  position: absolute;
+  left: 10%;
+  border-left: 1px solid rgb(138, 138, 138);
+  height: 1000px;
+}
+
+
+.onepager{
+  top: 400px;
+  position: fixed;
+  height: 800px;
+  left: 10.5%;
+  float: left;
+  width: 82px;
+}
+
+.onepager a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(36, 36, 36);
+  font-size: 13px;
+  padding-top: 3px;
+}
+
+.weiterercontent{
+  position: relative;
+  left: 300px;
+}
+.onepager a:hover{
+  color: rgb(31, 31, 31);
+}
+.headline{
+  position: relative;
+  top: 80px;
+  width: 80%;
+  border-top: 1px solid rgb(138, 138, 138);
+}
+
+.headtitle{
+  margin-top: 2px;
+  font-weight: 900;
+  font-size: 100px;
+  width: 900px;
+  position: relative;
+  color: #0f1923;
+  left: 7%;
+  text-transform: uppercase;
+}
+@media screen and (max-width:1100px){
+  
+  .vertikalelinie{
+    border-left: none;
+    all: unset;
   }
   .ersteslayout h1{
     position: absolute;
@@ -240,5 +294,34 @@ hr {
     top: 400px;
     width: 250px;
     left: 9%;
+  }  
+
+  .vertikalenav{
+    border-left: none;
+    all: unset;
+  }
+  .onepager{
+    display: none;
+  }
+
+  .headline{
+    left: 10%;
+  }
+  .headtitle{
+    all: unset;
+    font-weight: 900;
+    color: #0f1923;
+    font-size: 56px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-left: 0px;
+    margin-bottom: 80px;
+    position: relative;
+  }
+  .weiterercontent{
+    left: 0px;
   }
 }
+
+
+
