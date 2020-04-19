@@ -120,9 +120,7 @@ nav{
 
 /* Footer */
 footer{
-  background-image:url(https://images4.alphacoders.com/879/87918.jpg);
-  background-position-y: 900px;
-  background-position-x: 2250px;
+  background-color: #111111;
 }
 
 .innerfootera{
@@ -132,7 +130,7 @@ footer{
   text-align: center;
   font-style: italic;
   font-size: 13px;
-  color: #ece8e1;
+  color: gray;
   margin-bottom: 10px;
   font-family: OpenSans, sans-serif;
   font-weight: bold;
@@ -157,11 +155,11 @@ footer{
 }
 .innerfooterb li a{
   text-decoration: none;
-  color: #ece8e1;
+  color: gray;
   font-size: 12;
   padding: 10px;
   transition: all 0.25s;
-  font-weight: bolder;
+  font-weight: 300;
 }
 
 .innerfooterb li a:hover{
@@ -170,11 +168,14 @@ color: #21384e;
 
 }
 
+.innerfooterc{
+  color: #111111;
+}
 hr {
   margin-top: 10px;
   margin-bottom: 10px;
   border: 0;
-  border-top: 0.5px solid #ece8e1;
+  border-top: 0.5px solid gray;
   margin-left: 100px;
   margin-right: 100px;
   
