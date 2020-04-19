@@ -87,7 +87,7 @@ nav{
   .navs{
     position: absolute;
     right: 0px;
-    height: 79.5vh;
+    height: 290px;
     top: 7.5vh;
     background-color:rgb(12, 12, 12);
     display: flex;
@@ -109,7 +109,7 @@ nav{
 /* Change the link color to #111 (black) on hover */
 .navi a:hover {
   cursor:pointer;
-  color: blue;
+  color: #21384e;
 }
 .navi img:hover {
   cursor:crosshair;
@@ -166,7 +166,7 @@ footer{
 
 .innerfooterb li a:hover{
 
-color: rgb(64, 64, 255);
+color: #21384e;
 
 }
 
@@ -226,7 +226,7 @@ hr {
   position: absolute;
   left: 10%;
   border-left: 1px solid rgb(138, 138, 138);
-  height: 1400px;
+  height: 2000px;
 }
 
 
@@ -282,7 +282,7 @@ hr {
   font-size: 18px;
   width: 300px;
   position: relative;
-  left: 18%;
+  left: 8%;
   top: 100px;
   color: gray;
 }
@@ -290,7 +290,7 @@ hr {
 
 .trailer{
   position: relative;
-  left: 40%;
+  left: 30%;
   bottom: 300px;
   width: 720px;
   height: 420px;
@@ -300,8 +300,51 @@ hr {
   background-color: #0f1923;
   height: 300px;
   width: 650px;
-  left: 40%;
+  left: 30%;
   bottom: 100px;
+}
+@media screen and (max-width: 1400px){
+  .untertext p{
+    left: 2%;
+  }
+
+  .trailer{
+    width: 50%;
+    height: 30%;
+    margin-right: 10%;
+    bottom: 300px;
+  }
+}
+
+@media screen and  (max-width: 1100px){
+
+  .blabla{
+    display: none;
+  }
+
+  .untertext{
+    all: unset;
+    text-align: center;
+    width: 20%;
+    margin-right: 10px;
+  }
+  .trailer{
+    all: unset;
+    margin-top: 80px;
+    width: 85%;
+    height: 50%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+  }
+  .untertext p{
+    width: 80%;
+    font-size: 23px;
+    left: unset;
+    margin-left: 10%;
+    color: gray;
+    text-align: center;
+  }
+
 }
 @media screen and (max-width:1100px){
   
@@ -326,6 +369,7 @@ hr {
     top: 400px;
     width: 250px;
     left: 9%;
+    float: initial;
   }  
 
   .vertikalenav{
@@ -356,4 +400,22 @@ hr {
 }
 
 
+.bildweltmeister{
+  position: relative;
+  left: 35%;
+  width: 450px;
+  height: 600px;
+  background-image: url("WM.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 275px;
+}
+.test{
+  position: absolute;
+  background-color: #21384e;
+  top: 680px;
+  left: 35%;
+  width: 600px;
+  height: 200px;
+}
 
