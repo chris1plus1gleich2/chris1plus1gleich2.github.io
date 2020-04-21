@@ -154,6 +154,21 @@
         
         navSlide();
     </script>
+    <script>
+            const vidPause = () => {
+            const video = document.querySelector(".trailer");
+
+            video.addEventListener('click', ()=> {
+                if(video.pause()==true){
+                    video.play();
+                }else{
+                    video.pause();
+                }
+            });
+        }
+        
+        vidPause();
+    </script>
 </body>
 
 </html>	

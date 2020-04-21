@@ -296,6 +296,7 @@ hr {
   width: 720px;
   height: 420px;
 }
+
 .blabla{
   position: absolute;
   background-color: #0f1923;
@@ -308,7 +309,6 @@ hr {
   .untertext p{
     left: 2%;
   }
-
   .trailer{
     width: 50%;
     height: 30%;
