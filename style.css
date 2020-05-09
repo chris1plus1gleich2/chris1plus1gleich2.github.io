@@ -94,8 +94,8 @@ nav{
     flex-direction: column;
     align-items: center;
     width: 25%;
-    transform: translateX(100%);
     transition: transform 0.5s ease-in;
+    display: none;
   }
   .burger{
     display: block;
@@ -104,6 +104,7 @@ nav{
 
 .nav-active{
   transform: translateX(0%);
+  display: flex;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -227,7 +228,7 @@ hr {
   position: absolute;
   left: 10%;
   border-left: 1px solid rgb(138, 138, 138);
-  height: 2000px;
+  height: 3500px;
 }
 
 
@@ -317,88 +318,7 @@ hr {
   }
 }
 
-@media screen and  (max-width: 1100px){
 
-  .blabla{
-    display: none;
-  }
-
-  .untertext{
-    all: unset;
-    text-align: center;
-    width: 20%;
-    margin-right: 10px;
-  }
-  .trailer{
-    all: unset;
-    margin-top: 80px;
-    width: 85%;
-    height: 50%;
-    margin-left: 10%;
-    margin-bottom: 10px;
-  }
-  .untertext p{
-    width: 80%;
-    font-size: 23px;
-    left: unset;
-    margin-left: 10%;
-    color: gray;
-    text-align: center;
-  }
-
-}
-@media screen and (max-width:1100px){
-  
-  .vertikalelinie{
-    border-left: none;
-    all: unset;
-  }
-  .ersteslayout h1{
-    position: absolute;
-    font-weight: bolder;
-    font-size: 50px;
-    text-transform: uppercase;
-    width: 250px;
-    top: 200px;
-    left: 8%;
-  }
-  
-  .ersteslayout p{
-    position: absolute;
-    font-weight: bold;
-    font-size: 23px;
-    top: 400px;
-    width: 250px;
-    left: 9%;
-    float: initial;
-  }  
-
-  .vertikalenav{
-    border-left: none;
-    all: unset;
-  }
-  .onepager{
-    display: none;
-  }
-
-  .headline{
-    left: 10%;
-  }
-  .headtitle{
-    all: unset;
-    font-weight: 900;
-    color: #0f1923;
-    font-size: 56px;
-    text-align: center;
-    letter-spacing: 3px;
-    margin-left: 0px;
-    margin-bottom: 80px;
-    position: relative;
-  }
-  .weiterercontent{
-    left: 0px;
-  }
-}
 
 
 .bildweltmeister{
@@ -420,3 +340,72 @@ hr {
   height: 200px;
 }
 
+.contentdunkel{
+  left: 300px;
+  height: 1200px;
+  position: relative;
+}
+
+.bgimagel{
+  background-image: url(https://images6.alphacoders.com/962/962483.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+}
+.bgimager{
+  background-image: url(https://images8.alphacoders.com/984/984758.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+}
+.bgimagen{
+  background-image: url(https://images7.alphacoders.com/983/983619.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+.slides{
+  border: solid 8px #21384e;
+  border-radius: 2px;
+  position: absolute;
+  height: 60%;
+  width: 70%;
+  left: 80px;
+}
+
+.slides p{
+  color: white;
+  font-size: medium;
+  position: absolute;
+  top: 49%;
+  left: 6%;
+  width: 20%;
+
+}
+
+.slides h4{
+  color: white;
+  font-size: x-large;
+  position: absolute;
+  top: 40%;
+  left: 6%;
+}
+
+#dunkel{
+  margin-bottom: 8%;
+}
+
+.slidesleft{
+  position: relative;
+  top: 50%;
+  left: 8%;
+}
+.slidesright{
+  position: relative;
+  top: 50%;
+  left: 3.7%;
+}
