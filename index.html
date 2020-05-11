@@ -186,7 +186,7 @@
             const video = document.querySelector(".trailer");
 
             video.addEventListener('click', ()=> {
-                if(video.pause()==true){
+                if(video.paused){
                     video.play();
                 }else{
                     video.pause();
