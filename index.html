@@ -90,29 +90,27 @@
             <div class="headline">
             <h1 class="headtitle" id="dunkel">Champions des Fussballs</h1>
              </div>
-            <div class=""slidebar">
-                <button class="slidesleft" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="slidesright" onclick="plusDivs(+1)">&#10095;</button>
-                 <div class="slides">
-                     <div class="bgimagel">
-                     <h4>Lionel Messi</h4>
-                     <p>Der argentinische Fussballer Lionel Messi ist seit 2004 das Gesicht des FC Barcelona. Viele bekannte Sportjournalisten bezeichnen den Profisportler als den besten Fussballspieler der Welt. Dementsprechend wurde er bereits sechs Mal zum Weltfussballer des Jahres gewählt.</p>
-                     </div>
-                     </div>
-                 <div class="slides">
-                     <div class="bgimager">
-                     <h4>Ronaldo</h4>
-                     <p>Ronaldo ist unumstritten einer der besten Fussballer unseres Jahrhunderts. In 292 Spielen für Real Madrid schoss er 311 Tore. Dies ist einer von vielen Gründen weswegen er schon 5 Mal den Titel als bester Fussballer erhalten hat.</p>
-                     </div>
-                 </div>
-                 <div class="slides">
-                     <div class="bgimagen">
-                     <h4>Neymar</h4>
-                     <p>Ronaldo ist unumstritten einer der besten Fussballer unseres Jahrhunderts. In 292 Spielen für Real Madrid schoss er 311 Tore. Dies ist einer von vielen Gründen weswegen er schon 5 Mal den Titel als bester Fussballer erhalten hat.</p>
-                     </div>
-                 </div>
-            </div>
-        </div>
+            <div class="slidebar" onclick="plusDivs(+1)">
+                <div class="slides">
+                    <div class="bgimagel">
+                    </div>
+                    <h4>Lionel Messi</h4>
+                    <p>Der argentinische Fussballer Lionel Messi ist seit 2004 das Gesicht des FC Barcelona. Viele bekannte Sportjournalisten bezeichnen den Profisportler als den besten Fussballspieler der Welt. Dementsprechend wurde er bereits sechs Mal zum Weltfussballer des Jahres gewählt.</p>
+                    </div>
+                <div class="slides">
+                    <div class="bgimager">
+                    </div>
+                    <h4>Christiano Ronaldo</h4>
+                    <p>Ronaldo ist unumstritten einer der besten Fussballer unseres Jahrhunderts. In 292 Spielen für Real Madrid schoss er 311 Tore. Dies ist einer von vielen Gründen weswegen er schon 5 Mal den Titel als bester Fussballer erhalten hat.</p>
+                </div>
+                <div class="slides">
+                    <div class="bgimagen">
+                    </div>
+                    <h4>Neymar</h4>
+                    <p>Ronaldo ist unumstritten einer der besten Fussballer unseres Jahrhunderts. In 292 Spielen für Real Madrid schoss er 311 Tore. Dies ist einer von vielen Gründen weswegen er schon 5 Mal den Titel als bester Fussballer erhalten hat.</p>
+                </div>
+           </div>
+       </div>
         <div id="div6">
         <div class="weiterercontent" >
             <div class="headline">
@@ -215,6 +213,17 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
 }
 
+    </script>
+    <script>
+        hoehe = Screen.height;
+        function WebsiteHeight(){
+            i = 2;
+            while(i=1)
+            if(hoehe="900px"){
+                document.body.style.display = "none";
+            }
+        }
+        
     </script>
 </body>
 
