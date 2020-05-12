@@ -51,7 +51,7 @@
             </div>
             </div>
         </div>
-    <div class="onepager">
+    <div class="onepager" id="ids">
         
         <a href="#div3" >001 <span class="spannav">Fussball</span></a>
         <a href="#div4" >002 <span class="spannav">Überbllick</span></a>
@@ -215,15 +215,16 @@ function showDivs(n) {
 
     </script>
     <script>
-        hoehe = Screen.height;
-        function WebsiteHeight(){
-            i = 2;
-            while(i=1)
-            if(hoehe="900px"){
-                document.body.style.display = "none";
-            }
-        }
-        
+        window.onscroll = function() {myFunction()};
+
+function myFunction() {
+   
+  if(document.body.scrollTop > 400 || document.documentElement.scrollTop > 400){
+    document.querySelector("#ids a").style.color="#0f1923";
+  }else{
+    document.querySelector("#ids a").style.color="white";
+  }
+}
     </script>
 </body>
 
