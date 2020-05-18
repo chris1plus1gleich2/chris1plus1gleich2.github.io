@@ -53,10 +53,10 @@
         </div>
     <div class="onepager" id="ids">
         
-        <a href="#div3" >001 <span class="spannav">Fussball</span></a>
-        <a href="#div4" >002 <span class="spannav">Überbllick</span></a>
-        <a href="#div5" >003 <span class="spannav">Champions</span></a>
-        <a href="#div6" >004 <span class="spannav">Weltmeister</span></a>
+        <a href="#div3" id="linka">001 <span class="spannav">Fussball</span></a>
+        <a href="#div4" id="linkb">002 <span class="spannav">Überbllick</span></a>
+        <a href="#div5" id="linkc">003 <span class="spannav">Champions</span></a>
+        <a href="#div6" id="linkd">004 <span class="spannav">Weltmeister</span></a>
             
 
         </div>
@@ -112,7 +112,7 @@
            </div>
        </div>
         <div id="div6">
-        <div class="weiterercontent" >
+        <div class="weiterercontent" id="weiterercontentshort" >
             <div class="headline">
             <h1 class="headtitle">Weltmeisterschaft</h1>
             </div>
@@ -220,9 +220,20 @@ function showDivs(n) {
 function myFunction() {
    
   if(document.body.scrollTop > 400 || document.documentElement.scrollTop > 400){
-    document.querySelector("#ids a").style.color="#0f1923";
+    document.querySelector("#linka").style.color="#0f1923";
+    document.querySelector("#linkb").style.color="#0f1923";
+    document.querySelector("#linkc").style.color="#0f1923";
+    document.querySelector("#linkd").style.color="#0f1923";
+  }else if(document.body.scrollTop > 800 || document.documentElement.scrollTop > 800){
+    document.querySelector("#linka").style.color="#0f1923";
+    document.querySelector("#linkb").style.color="#0f1923";
+    document.querySelector("#linkc").style.color="#0f1923";
+    document.querySelector("#linkd").style.color="#0f1923";
   }else{
-    document.querySelector("#ids a").style.color="white";
+    document.querySelector("#linka").style.color="white";
+    document.querySelector("#linkb").style.color="white";
+    document.querySelector("#linkc").style.color="white";
+    document.querySelector("#linkd").style.color="white";
   }
 }
     </script>
