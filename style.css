@@ -228,7 +228,7 @@ hr {
   position: absolute;
   left: 10%;
   border-left: 1px solid rgb(138, 138, 138);
-  height: 3500px;
+  height: 3620px;
 }
 
 
@@ -547,5 +547,15 @@ hr {
 
 .slides h4{
   font-size: 18px;
+}
+
+.bgimagel{
+  background-position-x: -300px;
+}
+.bgimager{
+  background-position-x: -500px;
+}
+.bgimagen{
+  background-position-x: -400px;
 }
 }
