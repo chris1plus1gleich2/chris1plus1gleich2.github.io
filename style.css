@@ -549,6 +549,9 @@ hr {
   font-size: 18px;
 }
 
+}
+
+@media screen and (max-width: 1200px){
 .bgimagel{
   background-position-x: -300px;
 }
