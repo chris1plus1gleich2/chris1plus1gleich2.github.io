@@ -237,3 +237,22 @@ hr {
 }
 
 }
+
+.headline{
+  position: relative;
+  top: 80px;
+  width: 80%;
+  border-top: 1px solid rgb(138, 138, 138);
+}
+
+.headtitle{
+  margin-top: 2px;
+  font-weight: 900;
+  font-size: 100px;
+  width: 900px;
+  position: relative;
+  color: #0f1923;
+  left: 7%;
+  text-transform: uppercase;
+  margin-right: 3%;
+}
